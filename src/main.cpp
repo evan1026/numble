@@ -7,7 +7,7 @@
 
 Logger logger;
 
-int main(int argv, char* argc[]){
+int main(int argc, char* argv[]){
     std::string numbers = logger.getInput("Input the two numbers, seperated by a comma: ");
     numbers = removeWhitespace(numbers);
 
